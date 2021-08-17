@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+}
+
+div#container {
+    margin: auto;
+    max-width: 450px;
+    height: calc(100vh - 50px);
+    padding: 0 20px;
+    background-color: rgb(113, 240, 187);
+    border: solid black 1px;
+    border-radius: 20px;
+
+
+}
+
+h1 {
+    font-size: 25pt;
+    text-align: center;
+    font-family: monospace;
+    margin: 20px auto;
+
+}
+
+
+.dPeso {
+    font-size: 20pt;
+    font-family: monospace;
+    display: block;
+    background-color: rgb(180, 180, 180);
+    padding: 10px;
+    margin: auto;
+
+    border: solid black 2px;
+}
+
+.dAltura {
+    font-size: 20pt;
+    font-family: monospace;
+    display: block;
+    background-color: rgb(180, 180, 180);
+    padding: 10px;
+    margin: 50px auto;
+
+    border: solid black 2px;
+}
+
+
+
+input {
+    font-size: 20pt;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px 0;
+
+    box-sizing: border-box;
+ 
+    border: solid black 2px;
+
+    border-radius: 20px;
+}
+
+.res {
+    font-size: 20pt;
+    font-family: monospace;
+    background-color: white;
+
+    border: solid black 2px;
+    margin: 20px auto;
+    padding: 10px 20px;
+
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.botao {
+    display: block;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    background-color: rgb(219, 75, 117);
+ 
+    padding: 10px 20px;
+
+}
+
+@media (max-width: 750px) { 
+    input[type=number] {
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 75px;
+        display: inline-block;
+        font-size: 12pt;
+    }
+    .dPeso {
+        font: 12px;
+        height: 20px;
+    }
+    
+    .dAltura {
+       height: 20px;
+    }
+    label {
+        display: block;
+        font-size: 12pt;
+        line-height: 20px;
+    }
+    .botao {
+       margin-top: -30px;
+    }
+    .res {
+        height: 200px;
+    }
+  
+
+}
+
+@media (max-width: 400px) {
+    label {
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    input[type=number] {
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 45px;
+        display: inline-block;
+        font-size: 10pt;
+    }
+}
